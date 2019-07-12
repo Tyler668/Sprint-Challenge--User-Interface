@@ -137,6 +137,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    height: 75px;
 }
 
 footer nav a {
@@ -220,7 +221,7 @@ hr{
 	justify-content: center;
 	justify-content: space-between;
 	align-content: space-between;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .about-mid div{
@@ -250,4 +251,8 @@ button{
 button:hover{
     background: lightgrey;
     transition: .5s;
+}
+
+.about-footer{
+    margin-top: 5%;
 }
