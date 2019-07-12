@@ -1,4 +1,5 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
+#Tyler Gilchrist
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -34,22 +35,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML consists of HTML tags and markups that give the content on the page meaning. An example of a NON semantic tag might be a <div>, which doesn't give the browser any information about the contents of the tag. Semantic HTML on the other hand would be something like <header>, <footer>, <nav>, <table>, etc. All of these tags queue us in on what and where the content might be. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+-Display: inline is unable to have its height and width modified while display: block can.
+-Display: inline takes up only the space needed to fit, display: block takes up the full width available and creates space above and below.
 
 3. What are the 4 areas of the box model?
 
+-Content
+-Padding
+-Border
+-Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This works on the vertical axis (Y)
+
 5. Explain why git is valuable to a team of developers.
+
+Git is similar in function to something like Google Drive, but with extra functionalities. It allows multiple people to work on one piece of software, each branching out in different directions and working on different parts. The strength of git is the ability to commit / save an infinite amount of accessible change logs that can be reverted to at any time in the event someone breaks the code. Once changes are pushed to github, specific changes can be reviewed and assessed for merging with the base code. In summation; Git is a safety net for the development team to all try their own thing with no negative consequences.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
